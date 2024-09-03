@@ -1,0 +1,4 @@
+# react js for frontend
+# node js and express js for backend
+# socket.io for web sockets
+# vercel for deployment
