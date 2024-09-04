@@ -1,3 +1,5 @@
+// listing all events i.e actions
+
 const ACTIONS = {
     JOIN: 'join',
     JOINED: 'joined',
