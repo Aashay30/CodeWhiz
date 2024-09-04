@@ -4,3 +4,5 @@
 # vercel for deployment
 # uuid for generating unique ids
 # react-hot-toast for pop up ie toast 
+# making server for real-time connection using express.js and socket.io
+# codemirror==5.65.2

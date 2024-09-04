@@ -13,7 +13,7 @@ import {
 
 const EditorPage = () => {
 
-    const socketRef = useRef(null);
+    const socketRef = useRef(null); // hook to store data so that data will be available on multile renders and prevent components from re-rendering
     const codeRef = useRef(null);
     const location = useLocation();
     const { roomId } = useParams();
@@ -72,7 +72,7 @@ const EditorPage = () => {
             socketRef.current.off(ACTIONS.JOINED);
             socketRef.current.off(ACTIONS.DISCONNECTED);
         };
-    }, []);
+    }, []); // empty array to avoid this from getting called on every render 
 
     // to notify when room id gets copied
     async function copyRoomId() {
