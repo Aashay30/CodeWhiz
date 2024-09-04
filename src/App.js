@@ -9,6 +9,7 @@ import EditorPage from "./pages/EditorPage";
 function App() {
   return (
     <>
+      {/* setting toaster as global */}
       <div>
         <Toaster
           position="top-right"

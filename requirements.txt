@@ -2,3 +2,5 @@
 # node js and express js for backend
 # socket.io for web sockets
 # vercel for deployment
+# uuid for generating unique ids
+# react-hot-toast for pop up ie toast 
