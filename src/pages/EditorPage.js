@@ -7,14 +7,14 @@ import { initSocket } from '../socket';
 import {
     useLocation,
     useNavigate,
-    Navigate,
-    useParams,
+    Navigate, // to navigate if error
+    useParams, // to get parameters from url
 } from 'react-router-dom';
 
 const EditorPage = () => {
 
     const socketRef = useRef(null); // hook to store data so that data will be available on multile renders and prevent components from re-rendering
-    const codeRef = useRef(null);
+    const codeRef = useRef(null); // hook to sync code for new user upon joining
     const location = useLocation();
     const { roomId } = useParams();
     const reactNavigator = useNavigate();
@@ -85,6 +85,7 @@ const EditorPage = () => {
         }
     }
 
+    // redirect to main page on leaving the room 
     function leaveRoom() {
         reactNavigator('/');
     }

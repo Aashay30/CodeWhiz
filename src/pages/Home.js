@@ -81,7 +81,7 @@ const Home = () => {
             </div>
             <footer>
                 <h4>
-                    All Rights Reserved &nbsp; Copyright © 2024 &nbsp; by Aashay Tamrakar
+                    All Rights Reserved &nbsp; Copyright © 2024 &nbsp; by <a href="/">Aashay Tamrakar</a>
                     <a></a>
                 </h4>
             </footer>
