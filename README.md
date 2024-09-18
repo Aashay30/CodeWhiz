@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 🚀 CodeWhiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**CodeWhiz** is a real-time collaborative code editor web application that allows multiple users to work on the same code file together. Whether you're working on a team project or simply pair programming, this app lets you create coding rooms, invite others, and collaborate seamlessly in your browser!
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **Real-Time Collaborative Editing**  
+  - 🔄 See live code updates from other users instantly.
+  - 👤 View the usernames of everyone connected to the session.
+  - ✍️ See other users' cursors and actions as they edit in real time.
+ 
+- **Create Public/Private Rooms**  
+  - 🏠 Generate unique, shareable room URLs.
+  - 🔒 Option to create private rooms for secure collaboration.
+ 
+- **No Refresh Required**  
+  - 🚫🔄 Experience real-time collaboration without needing to refresh your browser.
+ 
+## 🛠 Built With
 
-### `npm start`
+- **Frontend**  
+  - ⚛️ React.js - For building a responsive, interactive user interface.
+  - 🎨 CodeMirror (v5.65.2) - As the code editor UI component.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Backend**  
+  - ⚙️ Node.js - For the server runtime.
+  - 🌐 Express.js - As the server framework for managing requests.
+  - 🧑‍💻 Socket.IO - Enables real-time, bidirectional communication between users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Deployment**  
+  - ⚡ Vercel - For easy and fast deployment.
 
-### `npm test`
+- **Other Tools**  
+  - 🔑 uuid - For generating unique room IDs.
+  - 🍞 react-hot-toast - For providing sleek pop-up notifications (toasts).
+ 
+## 📸 Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Home Page**  
+Here's the app's home page where you can create and join rooms:
 
-### `npm run build`
+![Home Page](https://github.com/Aashay30/CodeWhiz/blob/main/screenshots/Home%20Page.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Room Creation**  
+Easily generate a unique Room ID:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Room ID](https://github.com/Aashay30/CodeWhiz/blob/main/screenshots/Room%20ID.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Editor Window**  
+This is the main editor window, with a dashboard showing all connected users and the shared code editor:
 
-### `npm run eject`
+![Editor](https://github.com/Aashay30/CodeWhiz/blob/main/screenshots/Editor.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Room Sharing**  
+Share the Room ID to invite others and start collaborating!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Room ID Sharing](https://github.com/Aashay30/CodeWhiz/blob/main/screenshots/Room%20ID%20Sharing.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Real-Time Collaboration**  
+Watch code changes happen live as other users contribute!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Code Sync](https://github.com/Aashay30/CodeWhiz/blob/main/screenshots/Code%20Sync.png)
 
-## Learn More
+### **Join Notification**  
+Notification toaster shows up when new user is joined
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Join Notification](https://github.com/Aashay30/CodeWhiz/blob/main/screenshots/Join%20Notification.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Leave Notification**  
+Notification toaster shows up when user leaves the room
 
-### Code Splitting
+![Leave Notification](https://github.com/Aashay30/CodeWhiz/blob/main/screenshots/Leave%20Notification.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Run Locally
 
-### Analyzing the Bundle Size
+Want to try it out locally? Follow these simple steps to get up and running!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. **Clone the project**
 
-### Making a Progressive Web App
+   ```bash
+   git clone https://github.com/Aashay30/CodeWhiz
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Navigate to the project directory**
 
-### Advanced Configuration
+   ```bash
+   cd codewhiz
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. **Install dependencies**
 
-### Deployment
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. **Start the app**
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   npm run both
+   ```
