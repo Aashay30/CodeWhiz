@@ -2,6 +2,12 @@
 
 **CodeWhiz** is a real-time collaborative code editor web application that allows multiple users to work on the same code file together. Whether you're working on a team project or simply pair programming, this app lets you create coding rooms, invite others, and collaborate seamlessly in your browser!
 
+---
+
+![ReactJS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)![Codemirror](https://img.shields.io/badge/CodeMirror-D30707?style=for-the-badge&logo=CodeMirror&logoColor=white)![NodeJS](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)![ExpressJS](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)![SocketIO](https://img.shields.io/badge/Socket.io-010101?&style=for-the-badge&logo=Socket.io&logoColor=white)![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
 ## ✨ Features
 
 - **Real-Time Collaborative Editing**  
