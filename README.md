@@ -198,53 +198,39 @@ Providing a smooth and intuitive user experience, especially for non-technical u
 - Designed a clean and responsive UI using **React** and **CSS** to ensure usability on both desktop and mobile devices.
 - Included helpful error messages and fallback mechanisms for common issues, such as invalid room IDs or server downtime.
 
-## Key Takeaways
-
-Building **CodeWhiz** was a valuable learning experience that allowed me to enhance my technical skills and gain hands-on experience with real-world software development challenges. Below are the key takeaways from this project:
-
 ---
+
+## Key Takeaways
 
 ### 1. **Hands-On Experience with Real-Time Web Applications ⏱️**
 - Developed a real-time collaborative code editor that synchronizes changes across multiple users instantly.
 - Gained practical experience in implementing **real-time communication** using **Socket.IO** for bidirectional data flow.
 - Learned how to handle challenges like synchronization, reconnections, and managing multiple users in a shared environment.
 
----
-
 ### 2. **Improved Understanding of WebSocket Communication 🌐**
 - Explored the inner workings of **WebSocket protocols** and how they enable low-latency, persistent connections.
 - Implemented event-driven communication between the client and server to broadcast updates efficiently.
 - Optimized WebSocket performance by batching updates and minimizing data payloads.
-
----
 
 ### 3. **Enhanced Skills in React.js and Frontend Development ⚛️**
 - Built a responsive and interactive user interface using **React.js**.
 - Leveraged **React Router** for seamless navigation between pages and dynamic room creation.
 - Integrated **CodeMirror** for a feature-rich code editor with syntax highlighting and cursor tracking.
 
----
-
 ### 4. **Backend Development with Node.js and Express.js 🚀**
 - Designed and implemented a scalable backend using **Node.js** and **Express.js**.
 - Managed room creation, user connections, and real-time data synchronization on the server side.
 - Ensured secure and efficient handling of WebSocket events for multiple concurrent users.
-
----
 
 ### 5. **System Design and Architecture 🏗️**
 - Designed a modular and scalable architecture to support real-time collaboration.
 - Gained experience in separating frontend and backend concerns for better maintainability.
 - Learned how to deploy and manage a full-stack application using modern tools like **Vercel**.
 
----
-
 ### 6. **Problem-Solving and Debugging 🔍**
 - Tackled challenges such as handling race conditions, managing user sessions, and optimizing performance.
 - Debugged complex issues related to real-time synchronization and cross-browser compatibility.
 - Improved my ability to identify bottlenecks and implement efficient solutions.
-
----
 
 ### 7. **Collaboration and Communication Skills 🤝**
 - Documented the project thoroughly to make it accessible for other developers.
