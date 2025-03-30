@@ -75,6 +75,43 @@ Notification toaster shows up when user leaves the room
 
 Want to try it out locally? Follow these simple steps to get up and running!
 
+## Project Structure
+
+The project is organized as follows:
+
+```
+codewhiz/
+├── public/                 
+│   ├── index.html          # Main HTML file
+│   ├── favicon.ico         # Favicon for the app
+│   ├── manifest.json       # Web app manifest
+│   └── robots.txt          # Robots exclusion file
+├── src/                    
+│   ├── components/         
+│   │   ├── Header.js       # Header component
+│   │   ├── Footer.js       # Footer component
+│   │   └── ...             # Other reusable components
+│   ├── pages/              
+│   │   ├── HomePage.js     # Home page component
+│   │   ├── AboutPage.js    # About page component
+│   │   └── ...             # Other page-level components
+│   ├── assets/             
+│   │   ├── images/         # Image assets
+│   │   ├── styles/         # Global and component-specific styles
+│   │   └── ...             # Other static assets
+│   ├── App.js              # Main application component
+│   ├── App.css             # Styles for the App component
+│   ├── index.js            # Entry point for React
+│   ├── index.css           # Global styles
+│   └── reportWebVitals.js  # Performance reporting
+├── .gitignore              # Git ignore file
+├── package.json            # Project metadata and dependencies
+├── package-lock.json       # Lockfile for npm dependencies
+├── README.md               # Project documentation
+└── node_modules/           # Installed npm packages (auto-generated)
+```
+
+
 1. **Clone the project**
 
    ```bash
