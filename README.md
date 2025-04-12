@@ -39,42 +39,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Project Structure
-
-The project is organized as follows:
-
-```
-codewhiz/
-├── public/                 
-│   ├── index.html          # Main HTML file
-│   ├── favicon.ico         # Favicon for the app
-│   ├── manifest.json       # Web app manifest
-│   └── robots.txt          # Robots exclusion file
-├── src/                    
-│   ├── components/         
-│   │   ├── Header.js       # Header component
-│   │   ├── Footer.js       # Footer component
-│   │   └── ...             # Other reusable components
-│   ├── pages/              
-│   │   ├── HomePage.js     # Home page component
-│   │   ├── AboutPage.js    # About page component
-│   │   └── ...             # Other page-level components
-│   ├── assets/             
-│   │   ├── images/         # Image assets
-│   │   ├── styles/         # Global and component-specific styles
-│   │   └── ...             # Other static assets
-│   ├── App.js              # Main application component
-│   ├── App.css             # Styles for the App component
-│   ├── index.js            # Entry point for React
-│   ├── index.css           # Global styles
-│   └── reportWebVitals.js  # Performance reporting
-├── .gitignore              # Git ignore file
-├── package.json            # Project metadata and dependencies
-├── package-lock.json       # Lockfile for npm dependencies
-├── README.md               # Project documentation
-└── node_modules/           # Installed npm packages (auto-generated)
-```
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
