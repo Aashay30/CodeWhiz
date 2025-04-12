@@ -48,7 +48,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
         }
 
         return () => {
-            socketRef.current.off(ACTIONS.CODE_CHANGE);
+            if(socketRef.current) socketRef.current.off(ACTIONS.CODE_CHANGE);
         };
     }, [socketRef.current]);
 
