@@ -142,7 +142,7 @@ codewhiz/
 
 ---
 
-## 🧩 Challenges & Problems Faced During Development (Interview-Focused)
+## 🧩 Challenges & Problems Faced During Development
 
 During the development of **CodeWhiz**, several technical and design challenges were encountered. Here’s how I approached and solved them, using a STAR (Situation, Task, Action, Result) format for behavioral interview answers:
 
